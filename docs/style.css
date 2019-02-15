@@ -17,6 +17,8 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	flex: 0 1 32rem;
+	border:1px solid red;
+
 }
 
 @media only screen and (max-width:530px){

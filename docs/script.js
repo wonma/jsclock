@@ -6,10 +6,6 @@ const secHandKO = document.querySelector('.sec-hand-ko')
 const minHandKO = document.querySelector('.min-hand-ko')
 const hourHandKO = document.querySelector('.hour-hand-ko')
 
-// const hands = document.querySelectorAll('.hand')
-// const clockBody = document.querySelector('.clock-body')
-// const clockBodyKO = document.querySelector('.clock-body-ko')
-
 
 function changeBG(hour, timezone) {
 	let bgColor ='#333'
@@ -35,7 +31,6 @@ function changeBG(hour, timezone) {
 	}
  
 	targetClock.style.backgroundColor = bgColor
-	console.log(hour , bgColor)
 }
 
 
@@ -97,8 +92,3 @@ function checkTime() {
 }
 
 setInterval(checkTime, 1000)
-
-
-
-
-// console.log(new Date())
